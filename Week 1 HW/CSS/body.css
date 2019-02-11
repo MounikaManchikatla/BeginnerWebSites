@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-image: url(../Images/photo.jpg);
+    background-size: 1350px;
+}
+.container{
+    width: 100%;
+    margin:auto;
+}
+.bold{
+    text-shadow: 2px 2px black;
+}
+#branding{
+    background-color: grey;
+    color: white;
+    border-bottom: 3px solid orangered;
+    padding-top: 25px;
+    min-height: 70px;
+    text-align: center;
+
+}
+
+    
+.highlight{
+    color: orange;
+}
+#main{
+    padding-top: 650px;
+}
+
+.content, .new{
+    border-top: 2px solid orangered;
+    background-color: gray;  
+    color: white;
+    padding-bottom: 1px;
+}
+.content:hover, .new:hover{
+    background-color: paleturquoise;
+    color: black;
+}
+.page-title, .title{
+    color: orangered;
+   
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background: orange;
+    border-top: 2px solid orangered;
+    font-weight: bold;
+}

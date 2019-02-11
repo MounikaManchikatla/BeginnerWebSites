@@ -1,0 +1,35 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+table td, table th{
+    text-align: left;
+    padding: 5px;
+}
+table td{
+    border: 1px solid #ddd;
+}
+table tr:nth-child(even){
+    background-color: #999;
+    color: white;
+}
+/* Not to change the header */
+table tr:not(:first-child):hover{
+    background-color: navy;
+    color: white;
+}
+table th:hover{
+    background: gray;
+    color: navy;
+    cursor: pointer;
+}
+/* Cursor not allowed */
+table th:nth-child(1):hover{
+    cursor: not-allowed;
+}
+.scroll-table{
+    overflow: auto;
+    height: calc(100vh - 130px); /* Viewport height - 100% height removes 130px */
+    
+}

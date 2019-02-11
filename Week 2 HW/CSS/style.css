@@ -1,0 +1,98 @@
+h1{ 
+    color: #f5deb3;
+    text-align: center;
+}
+h3{
+color: peachpuff;
+display: inline-block;
+width: 70%;
+padding: 10px 0 10px 0;
+}
+h4{
+    float: right;
+    width: 25%;
+   text-align:center;
+    color: peachpuff;
+    padding: 7px;
+}
+a{
+    color: peachpuff; 
+}
+.free{
+    width: 25%;
+    height: 450px;
+    float: right;
+}
+.first{
+    width: 20%;
+    height: 210px;
+}
+.container p{
+    font-size: 75%;
+    width: 50%;
+    border: 2px solid peachpuff;
+    background: peachpuff;
+    line-height: 25px;
+    display: inline-block;
+    float: right;
+    margin-right: 60px;
+    height: 205px;
+    margin-top: 0;
+    color: brown;
+}
+.highlight{
+    color: brown;
+}
+.main p{
+        width: 50%;
+        font-size: 75%;
+        border: 2px solid peachpuff;
+        background: peachpuff;
+        line-height: 25px;
+        display: inline-block;
+        float: right;
+        margin-right: 60px;
+        height: 170px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: brown;
+}
+
+.section a{
+     color: brown;
+     padding-left: 10px;
+}
+
+.newsletter h1{
+    float: left;
+    margin:0;
+}
+
+.newsletter form{
+    float: right;
+    margin-top:5px;
+    margin-right: 0;
+    padding-right:135px;
+}
+
+.newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.side1{
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+.side2{
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+.side3{
+    display: inline-block;
+    width: 25%;
+    float: left;
+}

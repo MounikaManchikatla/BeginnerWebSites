@@ -1,0 +1,34 @@
+body{
+    background: black;
+    color: orangered;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    font-size: 200%;
+}
+.container{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border: 1px solid orangered;
+    min-height: 200px;
+    min-width: 400px;
+    animation: fadein 2000ms ease-in;
+}
+h1 a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+ul li:nth-child(odd){
+
+    color: white;
+}
+@keyframes fadein{
+    from{
+    opacity: 0;
+    transform: scale(1.5);
+    }
+    to{opacity: 1;}
+}

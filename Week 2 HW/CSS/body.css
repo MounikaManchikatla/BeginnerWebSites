@@ -1,0 +1,34 @@
+body{
+    background: url("../Images/beans.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.newsletter{
+    
+   height:50px;
+   width: 100%;
+   background: peachpuff; 
+   margin-top: 10px;
+   padding-bottom: 20px;
+   font-size: 80%;
+   padding-top: 25px;
+}
+.button_1{
+    height: 35px;
+    background: #e8491d;
+    border: 0;
+    color: #fff;
+    padding: 0 20px 0 20px;
+}
+.footer{
+    background: peachpuff;
+    border: 2px solid peachpuff;
+}
+li{
+color: brown;
+font-size: 70%;
+list-style-type: none;
+line-height: 25px;
+}

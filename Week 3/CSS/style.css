@@ -1,0 +1,23 @@
+.content{
+    display: block;
+    margin: 10% auto;
+    width: 560px;
+    border: 2px solid #fff;
+    min-height: 300px;
+    animation: fadeIn 3000ms ease-in-out;
+}
+button{
+    background: orangered;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin:5px;
+}
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+button:hover{
+    background: purple;
+    cursor: pointer;
+}

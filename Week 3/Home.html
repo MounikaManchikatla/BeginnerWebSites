@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/body.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>You Tube Videos</title>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $("#btnvideo1").click(function () {
+                $('.video2').hide();
+                $('.video3').hide();
+                $('.video1').fadeIn(3000);
+            });
+            $("#btnvideo2").click(function () {
+                $('.video1').hide();
+                $('.video3').hide();
+                $('.video2').slideDown(3000);
+            });
+            $("#btnvideo3").click(function () {
+                $('.video1').hide();
+                $('.video2').hide();
+                $('.video3').slideDown(3000);
+            });
+        });
+    </script>
+
+    <div class="container">
+        <button id="btnvideo1">Tom&JerryPart1</button>
+        <button id="btnvideo2">Tom&JerryPart2</button>
+        <button id="btnvideo3">Tom&JerryPart3</button>
+
+        <div class="content video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sJVarXq12_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="content video2" style="display:none;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mKWFPg6IUdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="content video3" style="display:none;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AGBjI0x9VbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+
+</html>

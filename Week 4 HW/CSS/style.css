@@ -1,0 +1,105 @@
+body{
+    background: cornsilk; 
+    font-size: 130%;
+    margin:0;
+}
+header{
+    background: gray;
+    color: cornsilk;
+    padding: 0 0 10px 25px;
+    width: 100%;
+    height: 20%;
+    border: 1px solid grey;
+    border-bottom: 4px solid orange;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top:0;
+    margin-top: 0;
+    z-index: 999;
+}
+h2:hover{
+    color: red;
+}
+img{
+    width: 99%;
+    height: 120%;
+    padding: 0 0 20px 5px;  
+    position: relative; 
+    display:inline-block;
+    animation: fadein 2000ms ease-in;
+}
+.images .slide{
+    display: none;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    z-index: 99;       
+}
+ .images:hover .slide{
+    display: inline;
+} 
+ ul{
+    display: inline;
+} 
+.left{
+    float: left;
+    list-style-type: none;
+    width: 7%;
+} 
+.side{
+    padding-left: 450px;
+}
+.right{
+    display: inline-block;
+    list-style-type: none;
+    width: 7%;
+}
+.menu{
+    text-decoration: none;
+    color: gold;
+}
+.menu:hover{
+    color: navy;
+    background: wheat;
+    border: 2px solid wheat;
+    padding: 8px;
+}
+
+.container{
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+content h2{
+    text-align: center; 
+    color: white;
+    background: olivedrab;
+    margin:20px 0 0 0 ;
+    height: 100px;
+    padding-top: 180px;    
+}
+content h2:hover{
+    color: gold;
+}
+.click{
+    color: navy;
+}
+footer{
+    height: 30%;
+    color: wheat;
+    background: green;
+    border: 2px solid green;
+    text-align: center;
+    font-size: 80%;
+    margin-top: 20px;
+    padding:  25px;
+}
+
+@keyframes fadein{
+    from{
+    opacity: 0;
+    }
+    to{opacity: 1;}
+}
+

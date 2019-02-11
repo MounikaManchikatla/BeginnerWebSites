@@ -1,0 +1,30 @@
+table{
+    width: 95%;
+    border-collapse: collapse;
+    margin-left: 20px;
+    font-size: 85%;
+}
+table th{
+    text-align: center;
+    padding: 9px;
+}
+table td{
+    text-align: left;
+    padding: 5px;
+}
+table td{
+    border: 1px solid #ddd;
+}
+table tr:nth-child(even){
+    background-color: olivedrab;
+    color: white;
+}
+table tr:not(:first-child):hover{
+    background-color: gray;
+    color: white;
+}
+table th:hover{
+    background: gray;
+    color: wheat;
+    cursor: pointer;
+}
